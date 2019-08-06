@@ -1,0 +1,31 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start:dev": "webpack-dev-server --no-inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Adam Kruppa",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "html-webpack-plugin": "3.2.0",
+    "ts-loader": "6.0.4",
+    "typescript": "3.5.3",
+    "webpack": "4.39.1",
+    "webpack-cli": "3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-livereload-plugin": "^2.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "moment-range": "^4.0.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
